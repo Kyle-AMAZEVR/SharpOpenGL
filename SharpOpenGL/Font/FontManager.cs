@@ -28,7 +28,7 @@ namespace SharpOpenGL.Font
                 fontAtlas = new Texture2D();
                 FontRenderMaterial = ShaderManager.Get().GetMaterial("FontRenderMaterial");
                 FontBoxRenderMaterial = ShaderManager.Get().GetMaterial("FontBoxRenderMaterial");
-                BuildFontTextureAtlas();
+                //BuildFontTextureAtlas();
             }
             );
         }
